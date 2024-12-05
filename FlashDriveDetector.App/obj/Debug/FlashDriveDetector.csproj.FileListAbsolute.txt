@@ -1,0 +1,41 @@
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.AssemblyReference.cache
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.GenerateResource.cache
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.CoreCompileInputs.cache
+F:\C# Projects\Experiments\FlashDriveDetector\bin\Debug\Core.exe
+F:\C# Projects\Experiments\FlashDriveDetector\bin\Debug\Core.pdb
+F:\C# Projects\Experiments\FlashDriveDetector\bin\Debug\Core.exe.config
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDri.48DE2A9F.Up2Date
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDriveDetector.Forms.DrivesForm.resources
+F:\C# Projects\Experiments\FlashDriveDetector\bin\Debug\FlashDriveDetector.exe.config
+F:\C# Projects\Experiments\FlashDriveDetector\bin\Debug\FlashDriveDetector.exe
+F:\C# Projects\Experiments\FlashDriveDetector\bin\Debug\FlashDriveDetector.pdb
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDriveDetector.Properties.Resources.resources
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDriveDetector.exe
+F:\C# Projects\Experiments\FlashDriveDetector\obj\Debug\FlashDriveDetector.pdb
+D:\3_курс\Миталев\C#\FlashDriveDetector\bin\Debug\FlashDriveDetector.exe.config
+D:\3_курс\Миталев\C#\FlashDriveDetector\bin\Debug\FlashDriveDetector.exe
+D:\3_курс\Миталев\C#\FlashDriveDetector\bin\Debug\FlashDriveDetector.pdb
+D:\3_курс\Миталев\C#\FlashDriveDetector\bin\Debug\Core.pdb
+D:\3_курс\Миталев\C#\FlashDriveDetector\bin\Debug\Core.exe.config
+D:\3_курс\Миталев\C#\FlashDriveDetector\obj\Debug\FlashDriveDetector.Forms.DrivesForm.resources
+D:\3_курс\Миталев\C#\FlashDriveDetector\obj\Debug\FlashDriveDetector.Properties.Resources.resources
+D:\3_курс\Миталев\C#\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.GenerateResource.cache
+D:\3_курс\Миталев\C#\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.CoreCompileInputs.cache
+D:\3_курс\Миталев\C#\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.CopyComplete
+D:\3_курс\Миталев\C#\FlashDriveDetector\obj\Debug\FlashDriveDetector.exe
+D:\3_курс\Миталев\C#\FlashDriveDetector\obj\Debug\FlashDriveDetector.pdb
+D:\3_курс\Миталев\C#\FlashDriveDetector\bin\Debug\Core.exe
+F:\C# Projects\FlashDriveDetector\bin\Debug\FlashDriveDetector.exe.config
+F:\C# Projects\FlashDriveDetector\bin\Debug\FlashDriveDetector.exe
+F:\C# Projects\FlashDriveDetector\bin\Debug\FlashDriveDetector.pdb
+F:\C# Projects\FlashDriveDetector\bin\Debug\Core.exe
+F:\C# Projects\FlashDriveDetector\bin\Debug\Core.pdb
+F:\C# Projects\FlashDriveDetector\bin\Debug\Core.exe.config
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.AssemblyReference.cache
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDriveDetector.Forms.DrivesForm.resources
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDriveDetector.Properties.Resources.resources
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.GenerateResource.cache
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDriveDetector.csproj.CoreCompileInputs.cache
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDri.48DE2A9F.Up2Date
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDriveDetector.exe
+F:\C# Projects\FlashDriveDetector\obj\Debug\FlashDriveDetector.pdb
