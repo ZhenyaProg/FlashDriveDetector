@@ -31,17 +31,18 @@
             this.cmdExit = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.drivesList = new System.Windows.Forms.ListBox();
+            this.cmdEject = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // cmdExit
             // 
             this.cmdExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.cmdExit.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.cmdExit.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.cmdExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.cmdExit.Location = new System.Drawing.Point(0, 0);
+            this.cmdExit.Location = new System.Drawing.Point(0, 44);
             this.cmdExit.Name = "cmdExit";
-            this.cmdExit.Size = new System.Drawing.Size(416, 79);
+            this.cmdExit.Size = new System.Drawing.Size(416, 35);
             this.cmdExit.TabIndex = 0;
             this.cmdExit.Text = "Выйти";
             this.cmdExit.UseVisualStyleBackColor = false;
@@ -49,6 +50,7 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.cmdEject);
             this.panel1.Controls.Add(this.cmdExit);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 223);
@@ -69,6 +71,19 @@
             this.drivesList.Name = "drivesList";
             this.drivesList.Size = new System.Drawing.Size(416, 223);
             this.drivesList.TabIndex = 2;
+            // 
+            // cmdEject
+            // 
+            this.cmdEject.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.cmdEject.Dock = System.Windows.Forms.DockStyle.Top;
+            this.cmdEject.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.cmdEject.Location = new System.Drawing.Point(0, 0);
+            this.cmdEject.Name = "cmdEject";
+            this.cmdEject.Size = new System.Drawing.Size(416, 35);
+            this.cmdEject.TabIndex = 1;
+            this.cmdEject.Text = "Извлечь";
+            this.cmdEject.UseVisualStyleBackColor = false;
+            this.cmdEject.Click += new System.EventHandler(this.cmdEject_Click);
             // 
             // DrivesForm
             // 
@@ -93,5 +108,6 @@
         private System.Windows.Forms.Button cmdExit;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ListBox drivesList;
+        private System.Windows.Forms.Button cmdEject;
     }
 }

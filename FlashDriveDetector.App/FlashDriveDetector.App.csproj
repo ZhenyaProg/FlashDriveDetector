@@ -68,7 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppContext.cs" />
-    <Compile Include="Drivers\DriversController.cs" />
     <Compile Include="Forms\BackgroundForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,7 +77,6 @@
     <Compile Include="Forms\DrivesForm.Designer.cs">
       <DependentUpon>DrivesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Drivers\IDriversController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\DrivesForm.resx">
@@ -118,6 +116,12 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FlashDriveDetector.DriveInterface\FlashDriveDetector.DriveInterface.csproj">
+      <Project>{6a4f9d5d-79b4-41f6-89a5-342d7328432b}</Project>
+      <Name>FlashDriveDetector.DriveInterface</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

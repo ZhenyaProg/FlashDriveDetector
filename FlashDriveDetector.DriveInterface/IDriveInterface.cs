@@ -1,12 +1,13 @@
 ﻿using System.IO;
 
-namespace FlashDriveDetector.Drivers
+namespace FlashDriveDetector.Drive
 {
-    public interface IDriversController
+    public interface IDriveInterface
     {
         int DriversCount { get; }
         bool ContainsDrives { get; }
 
+        void EjectDrive(string driveName);
         DriveInfo[] GetDrives();
     }
 }

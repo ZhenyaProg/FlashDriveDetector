@@ -1,9 +1,9 @@
-﻿using FlashDriveDetector.Drivers;
-using Core;
+﻿using Core;
 using System;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Text;
+using FlashDriveDetector.Drive;
 
 namespace FlashDriveDetector.Forms
 {
@@ -11,7 +11,7 @@ namespace FlashDriveDetector.Forms
     {
         private readonly NotifyIcon _trayIcon;
         private readonly ContextMenu _trayMenu;
-        private readonly IDriversController _drivesController;
+        private readonly IDriveInterface _drivesController;
 
         public const int WM_QUERYENDSESSION = 0x0011;
         public const int WM_ENDSESSION = 0x0016;
@@ -25,7 +25,7 @@ namespace FlashDriveDetector.Forms
         static extern bool SetProcessShutdownParameters(uint dwLevel, uint dwFlags);
         #endregion
 
-        public BackgroundForm(IDriversController driversController)
+        public BackgroundForm(IDriveInterface driversController)
         {
             SetProcessShutdownParameters(0xFF, SHUTDOWN_NORETRY);
 

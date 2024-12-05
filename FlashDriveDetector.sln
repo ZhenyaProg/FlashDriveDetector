@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.App", "FlashDriveDetector.App\FlashDriveDetector.App.csproj", "{91EA945C-6C8B-4811-A3C6-DAF921E2394B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.DriveInterface", "FlashDriveDetector.DriveInterface\FlashDriveDetector.DriveInterface.csproj", "{6A4F9D5D-79B4-41F6-89A5-342D7328432B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{91EA945C-6C8B-4811-A3C6-DAF921E2394B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91EA945C-6C8B-4811-A3C6-DAF921E2394B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91EA945C-6C8B-4811-A3C6-DAF921E2394B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

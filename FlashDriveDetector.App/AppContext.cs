@@ -1,4 +1,4 @@
-﻿using FlashDriveDetector.Drivers;
+﻿using FlashDriveDetector.Drive;
 using FlashDriveDetector.Forms;
 using Core;
 using Core.Input;
@@ -16,7 +16,7 @@ namespace FlashDriveDetector
 
         protected override Func<InputController, BaseForm[]> FormsFactory => (inputController) =>
         {
-            var driversController = new DriversController();
+            var driversController = new DriveInterface();
 
             return new BaseForm[]
             {
