@@ -15,14 +15,18 @@ namespace FlashDriveDetector.Forms
             _driversController = driversController;
         }
 
-        private void cmdExit_Click(object sender, EventArgs e)
-        {
-            SwitchTo<BackgroundForm>();
-        }
-
         private void DrivesForm_Activated(object sender, EventArgs e)
         {
+            _driversController.DrivesUpdated += UpdateDriveList;
+
             UpdateDriveList();
+        }
+
+        private void cmdExit_Click(object sender, EventArgs e)
+        {
+            _driversController.DrivesUpdated -= UpdateDriveList;
+
+            SwitchTo<BackgroundForm>();
         }
 
         private void cmdEject_Click(object sender, EventArgs e)
@@ -31,8 +35,6 @@ namespace FlashDriveDetector.Forms
             var driveName = drives[drivesList.SelectedIndex].Name;
             var useableName = driveName.Substring(0, driveName.IndexOf(':') + 1);
             _driversController.EjectDrive(useableName);
-
-            UpdateDriveList();
 
             MessageBox.Show($"Диск {useableName} был успешно извлечен", "УСПЕХ", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }

@@ -16,6 +16,7 @@ namespace FlashDriveDetector.Forms
         public const int WM_QUERYENDSESSION = 0x0011;
         public const int WM_ENDSESSION = 0x0016;
         public const uint SHUTDOWN_NORETRY = 0x00000001;
+        public const int MOUNT_OR_EJECT = 537;
 
         #region DllImports
         [DllImport("user32.dll", SetLastError = true)]
@@ -41,7 +42,6 @@ namespace FlashDriveDetector.Forms
                 Visible = true,
             };
             _trayIcon.MouseClick += OnClick;
-
             _drivesController = driversController;
         }
 
@@ -90,11 +90,15 @@ namespace FlashDriveDetector.Forms
                  drives.Length > 0)
             {
                 StringBuilder stringBuilder = new StringBuilder($"Система не может быть выключена - есть {drives.Length} активных флешек:\r\n");
-                foreach(var drive in drives)
+                foreach (var drive in drives)
                 {
-                    stringBuilder.AppendLine($"\t{drive.VolumeLabel} ({drive.Name}) {Math.Round(drive.TotalSize*Math.Pow(10, -9), 2)}GB");
+                    stringBuilder.AppendLine($"\t{drive.VolumeLabel} ({drive.Name}) {Math.Round(drive.TotalSize * Math.Pow(10, -9), 2)}GB");
                 }
                 ShutdownBlockReasonCreate(Handle, stringBuilder.ToString());
+            }
+            else if(m.Msg == MOUNT_OR_EJECT)
+            {
+                _drivesController.Update();
             }
             else
                 base.WndProc(ref m);
