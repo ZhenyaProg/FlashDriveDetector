@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.App", "FlashDriveDetector.App\FlashDriveDetector.App.csproj", "{91EA945C-6C8B-4811-A3C6-DAF921E2394B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.Core", "FlashDriveDetector.Core\FlashDriveDetector.Core.csproj", "{F6C9A1BF-DED9-45BF-A37E-0377CE8A86BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.DriveInterface", "FlashDriveDetector.DriveInterface\FlashDriveDetector.DriveInterface.csproj", "{6A4F9D5D-79B4-41F6-89A5-342D7328432B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.Forms", "FlashDriveDetector.Forms\FlashDriveDetector.Forms.csproj", "{91EA945C-6C8B-4811-A3C6-DAF921E2394B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.App", "FlashDriveDetector.App\FlashDriveDetector.App.csproj", "{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.Infrastructure", "FlashDriveDetector.Infrastructure\FlashDriveDetector.Infrastructure.csproj", "{C5DD69E6-92DB-4836-965E-40E7E4A10B73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C9A1BF-DED9-45BF-A37E-0377CE8A86BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C9A1BF-DED9-45BF-A37E-0377CE8A86BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C9A1BF-DED9-45BF-A37E-0377CE8A86BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C9A1BF-DED9-45BF-A37E-0377CE8A86BC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{91EA945C-6C8B-4811-A3C6-DAF921E2394B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{91EA945C-6C8B-4811-A3C6-DAF921E2394B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91EA945C-6C8B-4811-A3C6-DAF921E2394B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91EA945C-6C8B-4811-A3C6-DAF921E2394B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A4F9D5D-79B4-41F6-89A5-342D7328432B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5DD69E6-92DB-4836-965E-40E7E4A10B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5DD69E6-92DB-4836-965E-40E7E4A10B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5DD69E6-92DB-4836-965E-40E7E4A10B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5DD69E6-92DB-4836-965E-40E7E4A10B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

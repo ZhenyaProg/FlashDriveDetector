@@ -3,32 +3,28 @@
   "WorkspaceRootPath": "F:\\C# Projects\\FlashDriveDetector\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.app\\forms\\backgroundform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|solutionrelative:flashdrivedetector.app\\forms\\backgroundform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.Forms\\FlashDriveDetector.Forms.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.forms\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.Forms\\FlashDriveDetector.Forms.csproj|solutionrelative:flashdrivedetector.forms\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.app\\forms\\drivesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|solutionrelative:flashdrivedetector.app\\forms\\drivesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.app\\usecases\\updatedrivesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|solutionrelative:flashdrivedetector.app\\usecases\\updatedrivesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4F9D5D-79B4-41F6-89A5-342D7328432B}|FlashDriveDetector.DriveInterface\\FlashDriveDetector.DriveInterface.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.driveinterface\\driveinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4F9D5D-79B4-41F6-89A5-342D7328432B}|FlashDriveDetector.DriveInterface\\FlashDriveDetector.DriveInterface.csproj|solutionrelative:flashdrivedetector.driveinterface\\driveinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5DD69E6-92DB-4836-965E-40E7E4A10B73}|FlashDriveDetector.Infrastructure\\FlashDriveDetector.Infrastructure.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.infrastructure\\drivesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DD69E6-92DB-4836-965E-40E7E4A10B73}|FlashDriveDetector.Infrastructure\\FlashDriveDetector.Infrastructure.csproj|solutionrelative:flashdrivedetector.infrastructure\\drivesprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A4F9D5D-79B4-41F6-89A5-342D7328432B}|FlashDriveDetector.DriveInterface\\FlashDriveDetector.DriveInterface.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.driveinterface\\idriveinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A4F9D5D-79B4-41F6-89A5-342D7328432B}|FlashDriveDetector.DriveInterface\\FlashDriveDetector.DriveInterface.csproj|solutionrelative:flashdrivedetector.driveinterface\\idriveinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.app\\usecases\\shutdownusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|solutionrelative:flashdrivedetector.app\\usecases\\shutdownusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.app\\forms\\backgroundform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|solutionrelative:flashdrivedetector.app\\forms\\backgroundform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F6C9A1BF-DED9-45BF-A37E-0377CE8A86BC}|FlashDriveDetector.Core\\FlashDriveDetector.Core.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.core\\imports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6C9A1BF-DED9-45BF-A37E-0377CE8A86BC}|FlashDriveDetector.Core\\FlashDriveDetector.Core.csproj|solutionrelative:flashdrivedetector.core\\imports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|F:\\C# Projects\\FlashDriveDetector\\flashdrivedetector.app\\forms\\drivesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|solutionrelative:flashdrivedetector.app\\forms\\drivesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{91EA945C-6C8B-4811-A3C6-DAF921E2394B}|FlashDriveDetector.App\\FlashDriveDetector.App.csproj|solutionrelative:flashdrivedetector.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5DD69E6-92DB-4836-965E-40E7E4A10B73}|FlashDriveDetector.Infrastructure\\FlashDriveDetector.Infrastructure.csproj|f:\\c# projects\\flashdrivedetector\\flashdrivedetector.infrastructure\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5DD69E6-92DB-4836-965E-40E7E4A10B73}|FlashDriveDetector.Infrastructure\\FlashDriveDetector.Infrastructure.csproj|solutionrelative:flashdrivedetector.infrastructure\\devicemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,91 +46,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DriveInterface.cs",
-              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.DriveInterface\\DriveInterface.cs",
-              "RelativeDocumentMoniker": "FlashDriveDetector.DriveInterface\\DriveInterface.cs",
-              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.DriveInterface\\DriveInterface.cs",
-              "RelativeToolTip": "FlashDriveDetector.DriveInterface\\DriveInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T20:37:12.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BackgroundForm.cs",
-              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\BackgroundForm.cs",
-              "RelativeDocumentMoniker": "FlashDriveDetector.App\\Forms\\BackgroundForm.cs",
-              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\BackgroundForm.cs",
-              "RelativeToolTip": "FlashDriveDetector.App\\Forms\\BackgroundForm.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAADwv2AAAABMAAAA",
+              "Title": "AppContext.cs",
+              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Forms\\AppContext.cs",
+              "RelativeDocumentMoniker": "FlashDriveDetector.Forms\\AppContext.cs",
+              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Forms\\AppContext.cs",
+              "RelativeToolTip": "FlashDriveDetector.Forms\\AppContext.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACQAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T20:36:16.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BackgroundForm.cs [Design]",
-              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\BackgroundForm.cs",
-              "RelativeDocumentMoniker": "FlashDriveDetector.App\\Forms\\BackgroundForm.cs",
-              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\BackgroundForm.cs [Design]",
-              "RelativeToolTip": "FlashDriveDetector.App\\Forms\\BackgroundForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T20:36:15.208Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IDriveInterface.cs",
-              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.DriveInterface\\IDriveInterface.cs",
-              "RelativeDocumentMoniker": "FlashDriveDetector.DriveInterface\\IDriveInterface.cs",
-              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.DriveInterface\\IDriveInterface.cs",
-              "RelativeToolTip": "FlashDriveDetector.DriveInterface\\IDriveInterface.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T20:11:32.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DrivesForm.cs",
-              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\DrivesForm.cs",
-              "RelativeDocumentMoniker": "FlashDriveDetector.App\\Forms\\DrivesForm.cs",
-              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\DrivesForm.cs",
-              "RelativeToolTip": "FlashDriveDetector.App\\Forms\\DrivesForm.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAADwvxsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:22:14.903Z",
+              "WhenOpened": "2024-12-09T16:40:49.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "DrivesForm.cs [Design]",
-              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\DrivesForm.cs",
-              "RelativeDocumentMoniker": "FlashDriveDetector.App\\Forms\\DrivesForm.cs",
-              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Forms\\DrivesForm.cs [Design]",
-              "RelativeToolTip": "FlashDriveDetector.App\\Forms\\DrivesForm.cs [Design]",
+              "Title": "DeviceManager.cs",
+              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Infrastructure\\DeviceManager.cs",
+              "RelativeDocumentMoniker": "FlashDriveDetector.Infrastructure\\DeviceManager.cs",
+              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Infrastructure\\DeviceManager.cs",
+              "RelativeToolTip": "FlashDriveDetector.Infrastructure\\DeviceManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T16:22:13.704Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-09T16:38:24.559Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Program.cs",
-              "RelativeDocumentMoniker": "FlashDriveDetector.App\\Program.cs",
-              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\Program.cs",
-              "RelativeToolTip": "FlashDriveDetector.App\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
+              "DocumentIndex": 2,
+              "Title": "DrivesProvider.cs",
+              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Infrastructure\\DrivesProvider.cs",
+              "RelativeDocumentMoniker": "FlashDriveDetector.Infrastructure\\DrivesProvider.cs",
+              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Infrastructure\\DrivesProvider.cs",
+              "RelativeToolTip": "FlashDriveDetector.Infrastructure\\DrivesProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T20:22:47.167Z",
+              "WhenOpened": "2024-12-09T16:37:25.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateDrivesUseCase.cs",
+              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\UseCases\\UpdateDrivesUseCase.cs",
+              "RelativeDocumentMoniker": "FlashDriveDetector.App\\UseCases\\UpdateDrivesUseCase.cs",
+              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\UseCases\\UpdateDrivesUseCase.cs",
+              "RelativeToolTip": "FlashDriveDetector.App\\UseCases\\UpdateDrivesUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:32:20.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Imports.cs",
+              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Core\\Imports.cs",
+              "RelativeDocumentMoniker": "FlashDriveDetector.Core\\Imports.cs",
+              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.Core\\Imports.cs",
+              "RelativeToolTip": "FlashDriveDetector.Core\\Imports.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:31:32.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShutdownUseCase.cs",
+              "DocumentMoniker": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\UseCases\\ShutdownUseCase.cs",
+              "RelativeDocumentMoniker": "FlashDriveDetector.App\\UseCases\\ShutdownUseCase.cs",
+              "ToolTip": "F:\\C# Projects\\FlashDriveDetector\\FlashDriveDetector.App\\UseCases\\ShutdownUseCase.cs",
+              "RelativeToolTip": "FlashDriveDetector.App\\UseCases\\ShutdownUseCase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T16:26:42.66Z",
               "EditorCaption": ""
             }
           ]
