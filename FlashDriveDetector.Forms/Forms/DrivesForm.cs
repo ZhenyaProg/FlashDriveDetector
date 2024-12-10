@@ -1,50 +1,47 @@
 ﻿using Core;
-using FlashDriveDetector.Core.Infrastructure;
-using FlashDriveDetector.Core.UseCases;
 using System;
 using System.Windows.Forms;
+using Microsoft.Extensions.DependencyInjection;
+using FlashDriveDetector.Core.Infrastructure;
+using FlashDriveDetector.Core.UseCases;
 
 namespace FlashDriveDetector.Forms
 {
     public partial class DrivesForm : BaseForm
     {
-        private readonly IEjectDriveUseCase _ejectDriveUseCase;
-        private readonly IGetDrivesUseCase _getDrivesUseCase;
-        private readonly IDrivesProvider _drivesProvider;
+        private readonly IDrivesProvider _drivesProvides;
+        private readonly IServiceProvider _serviceProvider;
 
-        public DrivesForm( //TODO: сюда контейнер зависимостей
-            IEjectDriveUseCase ejectDriveUseCase,
-            IGetDrivesUseCase getDrivesUseCase,
-            IDrivesProvider drivesProvider)
+        public DrivesForm(IServiceProvider serviceProvider)
         {
             InitializeComponent();
-
-            _ejectDriveUseCase = ejectDriveUseCase;
-            _getDrivesUseCase = getDrivesUseCase;
-            _drivesProvider = drivesProvider;
+            _drivesProvides = serviceProvider.GetRequiredService<IDrivesProvider>();
+            _serviceProvider = serviceProvider;
         }
 
         private void DrivesForm_Activated(object sender, EventArgs e)
         {
             UpdateDriveList();
-            _drivesProvider.OnDrivesUpdated += UpdateDriveList;
+            _drivesProvides.OnDrivesUpdated += UpdateDriveList;
         }
 
         private void cmdExit_Click(object sender, EventArgs e)
         {
-            _drivesProvider.OnDrivesUpdated -= UpdateDriveList;
+            _drivesProvides.OnDrivesUpdated -= UpdateDriveList;
             SwitchTo<BackgroundForm>();
         }
 
         private void cmdEject_Click(object sender, EventArgs e)
         {
-            var driveName = _ejectDriveUseCase.Execute(drivesList.SelectedIndex);
+            var useCase = _serviceProvider.GetRequiredService<IEjectDriveUseCase>();
+            var driveName = useCase.Execute(drivesList.SelectedIndex);
             MessageBox.Show($"Диск {driveName} был успешно извлечен", "УСПЕХ", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         public void UpdateDriveList()
         {
-            var drives = _getDrivesUseCase.Execute();
+            var useCase = _serviceProvider.GetRequiredService<IGetDrivesUseCase>();
+            var drives = useCase.Execute();
             drivesList.Items.Clear();
             foreach (var drive in drives)
             {

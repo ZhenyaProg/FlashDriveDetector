@@ -137,17 +137,17 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FlashDriveDetector.App\FlashDriveDetector.App.csproj">
-      <Project>{38CC36B1-907C-4CAD-9E43-33A4C9376A8F}</Project>
-      <Name>FlashDriveDetector.App</Name>
+    <ProjectReference Include="..\FlashDriveDetector.App.DI\FlashDriveDetector.App.DI.csproj">
+      <Project>{c09ebfb3-8034-4c43-8160-3c830e07878b}</Project>
+      <Name>FlashDriveDetector.App.DI</Name>
     </ProjectReference>
     <ProjectReference Include="..\FlashDriveDetector.Core\FlashDriveDetector.Core.csproj">
       <Project>{f6c9a1bf-ded9-45bf-a37e-0377ce8a86bc}</Project>
       <Name>FlashDriveDetector.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\FlashDriveDetector.Infrastructure\FlashDriveDetector.Infrastructure.csproj">
-      <Project>{C5DD69E6-92DB-4836-965E-40E7E4A10B73}</Project>
-      <Name>FlashDriveDetector.Infrastructure</Name>
+    <ProjectReference Include="..\FlashDriveDetector.Infrastructure.DI\FlashDriveDetector.Infrastructure.DI.csproj">
+      <Project>{4a4e028e-5b94-46ca-83ed-2060ff91b6f2}</Project>
+      <Name>FlashDriveDetector.Infrastructure.DI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

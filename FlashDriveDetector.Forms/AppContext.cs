@@ -1,12 +1,10 @@
-﻿using FlashDriveDetector.Forms;
+﻿using System;
+using Microsoft.Extensions.DependencyInjection;
 using Core;
 using Core.Input;
-using System;
-using FlashDriveDetector.Core.UseCases;
-using FlashDriveDetector.App.UseCases;
-using FlashDriveDetector.Core;
-using FlashDriveDetector.Infrastructure;
-using FlashDriveDetector.Core.Infrastructure;
+using FlashDriveDetector.Forms;
+using FlashDriveDetector.Infrastructure.DI;
+using FlashDriveDetector.App.DI;
 
 namespace FlashDriveDetector
 {
@@ -20,20 +18,16 @@ namespace FlashDriveDetector
 
         protected override Func<InputController, BaseForm[]> FormsFactory => (inputController) =>
         {
-            IMessageBox messageBox = new CustomMessageBox();
-            IDrivesProvider drivesProvider = new DrivesProvider();
-
-            IExitUseCase exitUseCase = new ExitUseCase(messageBox);
-            IShutdownUseCase shutdownUseCase = new ShutdownUseCase(drivesProvider);
-            IUpdateDrivesUseCase updateUseCase = new UpdateDrivesUseCase(drivesProvider);
-
-            IEjectDriveUseCase ejectUseCase = new EjectDriveUseCase(drivesProvider);
-            IGetDrivesUseCase getDrivesUseCase = new GetDrivesUseCase(drivesProvider);
+            IServiceCollection serviceCollection = new ServiceCollection()
+                                                       .AddInfrastructure()
+                                                       .AddUseCases();
+                
+            var provider = serviceCollection.BuildServiceProvider();
 
             return new BaseForm[]
             {
-                new BackgroundForm(exitUseCase, shutdownUseCase, updateUseCase),
-                new DrivesForm(ejectUseCase, getDrivesUseCase, drivesProvider),
+                new BackgroundForm(provider),
+                new DrivesForm(provider),
             };
         };
     }

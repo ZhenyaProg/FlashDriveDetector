@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using FlashDriveDetector.Core.UseCases;
 using FlashDriveDetector.Core.Models;
 using FlashDriveDetector.Core;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace FlashDriveDetector.Forms
 {
@@ -11,14 +12,9 @@ namespace FlashDriveDetector.Forms
     {
         private readonly NotifyIcon _trayIcon;
         private readonly ContextMenu _trayMenu;
-        private readonly IExitUseCase _exitUseCase;
-        private readonly IShutdownUseCase _shutdownUseCase;
-        private readonly IUpdateDrivesUseCase _updateDrivesUseCase;
+        private readonly IServiceProvider _serviceProvider;
 
-        public BackgroundForm(
-            IExitUseCase exitUseCase,
-            IShutdownUseCase shutdownUseCase,
-            IUpdateDrivesUseCase mountOrEjectUseCase)
+        public BackgroundForm(IServiceProvider serviceProvider)
         {
             _trayMenu = new ContextMenu();
             _trayMenu.MenuItems.Add("Показать флешки", (o, e) => SwitchTo<DrivesForm>());
@@ -32,9 +28,7 @@ namespace FlashDriveDetector.Forms
                 Visible = true,
             };
             _trayIcon.MouseClick += OnClick;
-            _exitUseCase = exitUseCase;
-            _shutdownUseCase = shutdownUseCase;
-            _updateDrivesUseCase = mountOrEjectUseCase;
+            _serviceProvider = serviceProvider;
         }
 
         private void OnClick(object sender, MouseEventArgs e)
@@ -54,7 +48,8 @@ namespace FlashDriveDetector.Forms
 
         private void OnExit(object sender, EventArgs e)
         {
-            ExitState exitState = _exitUseCase.Execute();
+            var useCase = _serviceProvider.GetRequiredService<IExitUseCase>();
+            ExitState exitState = useCase.Execute();
             switch (exitState)
             {
                 case ExitState.Exit:
@@ -71,11 +66,13 @@ namespace FlashDriveDetector.Forms
         {
             if (m.Msg == Imports.WM_QUERYENDSESSION || m.Msg == Imports.WM_ENDSESSION)
             {
-                _shutdownUseCase.Execute(Handle);
+                var useCase = _serviceProvider.GetRequiredService<IShutdownUseCase>();
+                useCase.Execute(Handle);
             }
             else if(m.Msg == Imports.MOUNT_OR_EJECT)
             {
-                _updateDrivesUseCase.Execute();
+                var useCase = _serviceProvider.GetRequiredService<IUpdateDrivesUseCase>();
+                useCase.Execute();
             }
             else
                 base.WndProc(ref m);

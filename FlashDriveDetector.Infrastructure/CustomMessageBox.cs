@@ -1,4 +1,4 @@
-﻿using FlashDriveDetector.Core;
+﻿using FlashDriveDetector.Core.Infrastructure;
 using FlashDriveDetector.Core.Models;
 using System.Windows.Forms;
 

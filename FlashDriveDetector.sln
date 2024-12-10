@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.App", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.Infrastructure", "FlashDriveDetector.Infrastructure\FlashDriveDetector.Infrastructure.csproj", "{C5DD69E6-92DB-4836-965E-40E7E4A10B73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.Infrastructure.DI", "FlashDriveDetector.Infrastructure.DI\FlashDriveDetector.Infrastructure.DI.csproj", "{4A4E028E-5B94-46CA-83ED-2060FF91B6F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashDriveDetector.App.DI", "FlashDriveDetector.App.DI\FlashDriveDetector.App.DI.csproj", "{C09EBFB3-8034-4C43-8160-3C830E07878B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C5DD69E6-92DB-4836-965E-40E7E4A10B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5DD69E6-92DB-4836-965E-40E7E4A10B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5DD69E6-92DB-4836-965E-40E7E4A10B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A4E028E-5B94-46CA-83ED-2060FF91B6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A4E028E-5B94-46CA-83ED-2060FF91B6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A4E028E-5B94-46CA-83ED-2060FF91B6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A4E028E-5B94-46CA-83ED-2060FF91B6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09EBFB3-8034-4C43-8160-3C830E07878B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09EBFB3-8034-4C43-8160-3C830E07878B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09EBFB3-8034-4C43-8160-3C830E07878B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09EBFB3-8034-4C43-8160-3C830E07878B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
